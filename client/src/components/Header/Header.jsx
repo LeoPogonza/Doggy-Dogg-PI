@@ -25,7 +25,7 @@ function Header() {
 
         <div className={menuHo ? 'menu_hiden active' : 'menu_hiden'}>
           <a
-            href="https://github.com/JuanLeonelPogonza/PI-Dogs-main"
+            href="https://github.com/JuanLeonelPogonza/PI-Dogs"
             target="_balck"
             className="about_responsive"
           >
@@ -35,7 +35,7 @@ function Header() {
 
         <div className="nav">
           <a
-            href="https://github.com/JuanLeonelPogonza/PI-Dogs-main"
+            href="https://github.com/JuanLeonelPogonza/PI-Dogs"
             target="_balck"
             className="about"
           >
