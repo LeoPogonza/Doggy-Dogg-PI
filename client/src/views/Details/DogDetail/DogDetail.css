@@ -1,0 +1,204 @@
+.profile {
+  display: flex;
+  gap: 45px;
+  width: 526px;
+  font-family: 'Montserrat';
+}
+.dogDetail {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1050px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.div_dog_profile {
+  width: 180px; 
+  height: 180px;
+  border-radius: 10px; 
+  overflow: hidden;
+}
+.image_dog_profile {
+  position: relative;
+  max-width: 310px;
+  right: 70px;
+  z-index: 2;
+}
+.div_dog_name {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.name_dog {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--azul-oscuro);
+}
+.sobre_dog {
+  font-size: 20px;
+  font-weight: 700;
+  color: #565656;
+}
+
+.table_container {
+  margin: 44px 0 0;
+}
+table {
+  max-width: 526px;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  color: var(--azul-oscuro);
+  text-align: start;
+}
+th, td {
+  border: 1px solid var(--gris-claro);
+  border-collapse: collapse;
+}
+.encabezado_tabla {
+  padding: 20px ;
+}
+.table_caracteristicas {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--gris-oscuro);
+  padding: 20px;
+}
+.table_temp {
+  padding-bottom: 88px;
+}
+.table_datos {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gris-claro);
+}
+.div_banner {
+  max-width: 400px;
+  height: 607px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.banner {
+  max-width: 450px;
+}
+
+@media screen and (max-width: 1014px) {
+  .dogDetail {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .div_banner {
+    max-width: 526px;
+    height: 607px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .banner {
+    max-width: 580px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .profile {
+    gap: 25px;
+    width: 390px;
+  }
+  .div_dog_profile {
+    width: 130px; 
+    height: 130px;
+  }
+  .image_dog_profile {
+    max-width: 230px;
+    right: 45px;
+  }
+  .div_dog_name {
+    gap: 10px;
+  }
+  .name_dog {
+    font-size: 26px;
+  }
+  .sobre_dog {
+    font-size: 18px;
+  }
+  .table_container {
+    margin: 25px 0 0;
+  }
+  table {
+    max-width: 390px;
+  }
+  .encabezado_tabla {
+    padding: 10px ;
+  }
+  .table_caracteristicas {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--gris-oscuro);
+    padding: 20px;
+  }
+  .table_temp {
+    padding-bottom: 200px;
+  }
+  .div_banner {
+    max-width: 390px;
+    height: 607px;
+  }
+  .banner {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .profile {
+    gap: 20px;
+    width: 277px;
+  }
+  .div_dog_profile {
+    width: 120px; 
+    height: 120px;
+  }
+  .image_dog_profile {
+    max-width: 200px;
+    right: 40px;
+  }
+  .div_dog_name {
+    gap: 5px;
+  }
+  .name_dog {
+    font-size: 18px;
+  }
+  .sobre_dog {
+    font-size: 13px;
+  }
+  .table_container {
+    margin: 20px 0 0;
+  }
+  table {
+    max-width: 277px;
+  }
+  .encabezado_tabla {
+    padding: 10px ;
+    font-size: 13px;
+  }
+  .table_caracteristicas {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .table_temp {
+    padding-bottom: 200px;
+  }
+  .table_datos {
+    font-size: 12px;
+    padding: 8px;
+  }
+  .div_banner {
+    max-width: 277px;
+    height: 407px;
+  }
+  .banner {
+    max-width: 300px;
+  }
+}
+

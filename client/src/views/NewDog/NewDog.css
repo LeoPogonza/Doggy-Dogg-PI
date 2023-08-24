@@ -1,0 +1,10 @@
+.new_dog {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+@media screen and (max-width: 574px) {
+  .new_dog {
+    padding: 0 15px;
+  }
+}

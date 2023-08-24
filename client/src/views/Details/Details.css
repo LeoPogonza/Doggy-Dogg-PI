@@ -1,0 +1,13 @@
+.details_component {
+  padding: 0 30px;
+}
+@media screen and (max-width: 574px) {
+  .details_component {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 375px) {
+  .details_component {
+    padding: 0 15px;
+  }
+}

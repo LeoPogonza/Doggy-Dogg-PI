@@ -1,0 +1,57 @@
+.button_crear_perro {
+  display: flex;
+  max-width: 240px;
+  padding: 6px 0 0 17px;
+  text-decoration: none;
+  background-color: var(--azul-oscuro);
+  border-radius: 10px;
+  min-width: 240px;
+}
+.text_button {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--blanco);
+  max-width: 90px;
+  /* margin: 10px 0 11px 17px; */
+}
+.text_button_naranja {
+  color: var(--azul-oscuro-hover);
+}
+.dog_button_create {
+  max-width: 133px;
+}
+
+@media screen and (max-width: 574px) {
+  .button_crear_perro {
+    max-width: 514px;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .button_crear_perro {
+    display: flex;
+    max-width: 240px;
+    padding: 6px 0 0 17px;
+    text-decoration: none;
+    background-color: var(--azul-oscuro);
+    border-radius: 10px;
+    min-width: 200px;
+  }
+  .text_button {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--blanco);
+    max-width: 90px;
+    margin-top: 5px;
+  }
+  .text_button_naranja {
+    color: var(--naranja);
+  }
+  .dog_button_create {
+    max-width: 120px;
+  }
+}

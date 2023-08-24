@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  /* ------ COLORES PRINCIPALES ------ */
+  --azul-oscuro: #424874;
+  --azul-oscuro-hover: #a6b1e1;
+  --naranja: #322653;
+  --naranja-hover: #8062d6;
+  --blanco: #ffffff;
+  --violeta-perro: #9288f8;
+
+  /* ------ COLORES TEXTO ------ */
+  --gris-oscuro: #565656;
+  --gris-claro: #787878;
+  --gris-muy-claro: #9a9a9a;
+  --gris-search-bar: #efefef;
+  --gris-placeholder: #b8b8b8;
+
+  /* ------ OTROS COLORES ------ */
+  --paginado: #ececec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 15px;
+}

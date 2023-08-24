@@ -1,0 +1,57 @@
+.div_image_card {
+  max-width: 240px;
+  height: 160px;
+  overflow: hidden;
+}
+.card_image_dog {
+  /* max-width: 240px; */
+  /* height: 172px; */
+  width: 100%;
+}
+.div_info_card {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  padding: 10px;
+}
+.card_name_dog {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--azul-oscuro);
+}
+.card_weight_dog {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--naranja);
+}
+.card_temperament_dog {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gris-muy-claro);
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 574px) {
+  .div_image_card {
+    max-width: 160px;
+    height: 119px;
+  }
+  .div_info_card {
+    padding: 5px;
+  }
+  .card_name_dog {
+    font-size: 14px;
+  }
+  .card_weight_dog {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--naranja);
+  }
+  .card_temperament_dog {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--gris-muy-claro);
+    margin-top: 5px;
+  }
+
+}

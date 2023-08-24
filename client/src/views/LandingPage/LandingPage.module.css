@@ -1,0 +1,226 @@
+header {
+  position: absolute;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 34px 30px;
+}
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: var(--azul-oscuro);
+}
+.acceder {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5%;
+  color: var(--blanco);
+  background-color: var(--naranja);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 22px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.acceder:hover {
+  background-color: var(--naranja-hover);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.main_left {
+  max-width: 350px;
+  margin-top: 200px;
+}
+.titulo {
+  font-family: 'Nunito';
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0.5%;
+  color: var(--azul-oscuro);
+}
+.titulo_perro {
+  color: var(--violeta-perro);
+}
+.sub_titulo {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--gris-oscuro);
+  letter-spacing: 0.5%;
+  line-height: 20px;
+  max-width: 285px;
+  margin: 16px 0 38px 0;
+}
+.acceder_grande {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--blanco);
+  background-color: var(--azul-oscuro);
+  border: none;
+  border-radius: 12px;
+  max-width: 200px;
+  padding: 18px 10px 18px 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.acceder_grande:hover {
+  gap: 20px;
+  background-color: var(--azul-oscuro-hover);
+}
+.arrow {
+  width: 13px;
+  margin-top: 2px;
+}
+
+.main_right {
+  max-width: 590px;
+  margin-right: 14px;
+}
+
+.div_functions {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: 67px auto 50px auto;
+  padding: 0 30px;
+}
+.funciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 5px;
+  height: 140px;
+  width: 140px;
+  padding: 18px 0 22px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 27px 0px #0000001c;
+  transition: all 0.3s ease;
+}
+.funciones:hover {
+  box-shadow: 0px 4px 27px 0px #00000035;
+}
+.icon {
+  width: 63px;
+}
+.funcion_desc {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gris-oscuro);
+  max-width: 112px;
+}
+
+.hero_responsive {
+  display: none;
+}
+.hero_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 999px) {
+  .hero {
+    display: none;
+  }
+  .hero_responsive {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .main_left {
+    margin-top: 140px;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .hero_responsive {
+    margin-left: 12.5px;
+  }
+  .main_left {
+    margin-top: 20px;
+  }
+  .div_functions {
+    gap: 20px;
+    max-width: 650px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  main {
+    padding: 0 15px;
+  }
+  .hero_responsive {
+    display: none;
+  }
+  .hero_mobile {
+    display: block;
+  }
+  .main_left {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .titulo {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .acceder_grande {
+    justify-content: center;
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+    padding: 18px 30px 18px 30px;
+  }
+
+  .div_functions {
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 500px;
+    margin: 80px auto 50px auto;
+    padding: 0 15px;
+  }
+  .funciones {
+    gap: 5px;
+    height: 200px;
+    width: 200px;
+  }
+  .icon {
+    width: 90px;
+  }
+  .funcion_desc {
+    font-size: 17px;
+    max-width: 145px;
+  }
+}

@@ -1,0 +1,46 @@
+.loader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1050;
+  margin: 0 auto;
+}
+
+.card_loading {
+  width: 240px;
+  height: 320px;
+  background-color: var(--gris-search-bar);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  animation: skeleton_loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton_loading {
+  0% {
+    background-color: hsl(0, 0%, 95%);
+  }
+  100% {
+    background-color: hsl(0, 0%, 78%);
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .loader {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    min-height: 706px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .loader {
+    justify-content: center;
+    gap: 10px;
+  }
+  .card_loading {
+    width: 160px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+}

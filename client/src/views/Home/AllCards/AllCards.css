@@ -1,0 +1,33 @@
+.AllCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 706px;
+  gap: 0 20px;
+}
+.link_all_cards {
+  width: 240px;
+  height: 320px;
+  border-radius: 10px;
+  margin-bottom: 33px;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0px 4px 22px 0px #0000001A;
+  transition: all 0.3s ease;
+}
+.link_all_cards:hover {
+  box-shadow: 0px 4px 22px 0px #0000003d;
+}
+
+
+@media screen and (max-width: 574px) {
+  .AllCards {
+    justify-content: center;
+    gap: 10px;
+  }
+  .link_all_cards {
+    width: 160px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+}

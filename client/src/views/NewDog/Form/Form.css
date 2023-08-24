@@ -1,0 +1,228 @@
+.Form_container {
+  max-width: 526px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 22px 0px #0000001A;
+  font-family: 'Montserrat';
+  padding: 40px;
+  margin: 0 auto;
+}
+.form_title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--azul-oscuro);
+}
+.form_title_naranja {
+  color: var(--naranja);
+}
+.datos_obligatorios {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--azul-oscuro);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  margin-top: 50px;
+}
+label {
+  /* position: relative;
+  top: 9px; */
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gris-claro);
+}
+.div_input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--gris-search-bar);
+  padding: 6px 6px;
+  height: 50px;
+  margin-top: 10px;
+  border: 2px solid transparent;
+}
+.div_input.error{
+  border: 2px solid rgba(255, 0, 0, 0.28);
+}
+
+.div_inputs_dobles {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.unidad {
+  font-weight: 700;
+  font-size: 14px;
+  border-left: 1px solid var(--gris-placeholder);
+  padding: 15px 2px 15px 5px;
+  color: var(--gris-claro);
+}
+.label_min {
+  opacity: 0;
+}
+.form_input.min,
+.form_input.max {
+  max-width: 165px;
+}
+.form_input.min_years,
+.form_input.max_years {
+  max-width: 149px;
+}
+.form_input {
+  border: none;
+  background-color: var(--gris-search-bar);
+  height: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 4px 9px;
+  color: var(--azul-oscuro);
+  letter-spacing: 0.6px;
+  width: 100%;
+}
+.form_input:focus {
+  outline: none;
+}
+.form_input::placeholder {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: var(--gris-placeholder);
+}
+.ul_temp {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--naranja);
+}
+.li_temp {
+  display: flex;
+  gap: 5px;
+  border: 1px solid var(--naranja);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.select_form {
+  background-color: var(--gris-search-bar);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--gris-claro);
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  cursor: pointer;
+}
+.select_form:focus {
+  outline: none;
+}
+
+.submit {
+  width: 100%;
+  border: none;
+  color: var(--blanco);
+  font-size: 26px;
+  font-weight: 700;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: var(--naranja);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submit:hover {
+  background-color: var(--naranja-hover);
+}
+.submit:focus {
+  outline: none;
+}
+.submit.none {
+  background-color: #8b4d2a;
+  color: rgb(150, 150, 150);
+  cursor: not-allowed;
+}
+.dato_incorrecto {
+  margin-left: 15px;
+  color: #DF4545;
+  font-size: 12px;
+  font-weight: 700;
+}
+.div_form_final_temps{
+  max-width: 500px;
+}
+.delete_temp {
+  border: none;
+  color: var(--azul-oscuro);
+  background-color: var(--blanco);
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 574px) {
+  .Form_container {
+    padding: 20px;
+  }
+  .form_title {
+    font-size: 16px;
+  }
+  .form {
+    gap: 30px;
+  }
+  label {
+    font-size: 13px;
+  }
+  .div_input {
+    padding: 4px 4px;
+  }
+  .div_inputs_dobles {
+    gap: 10px;
+  }
+  .unidad {
+    font-size: 11px;
+  }
+  .form_input {
+    font-size: 13px;
+  }
+  .form_input::placeholder {
+    font-size: 13px;
+  }
+  .ul_temp {
+    font-size: 12px;
+  }
+  .li_temp {
+    display: flex;
+    gap: 5px;
+    border: 1px solid var(--naranja);
+    padding: 4px;
+    border-radius: 4px;
+  }
+  .select_form {
+    font-size: 14px;
+  }
+  .submit {
+    font-size: 20px;
+  }
+
+  .dato_incorrecto {
+    margin-left: 15px;
+    color: #DF4545;
+    font-size: 9px;
+    font-weight: 700;
+  }
+  .div_form_final_temps{
+    max-width: 500px;
+  }
+  .delete_temp {
+    border: none;
+    color: var(--azul-oscuro);
+    background-color: var(--blanco);
+    cursor: pointer;
+  }
+}
