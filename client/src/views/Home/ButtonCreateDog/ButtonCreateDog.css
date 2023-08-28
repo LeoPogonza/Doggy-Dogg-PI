@@ -3,7 +3,7 @@
   max-width: 240px;
   padding: 6px 0 0 17px;
   text-decoration: none;
-  background-color: var(--azul-oscuro);
+  background-color: var(--azul-mid-oscuro);
   border-radius: 10px;
   min-width: 240px;
 }
@@ -16,7 +16,7 @@
   /* margin: 10px 0 11px 17px; */
 }
 .text_button_naranja {
-  color: var(--azul-oscuro-hover);
+  color: var(--violeta-claro-hover);
 }
 .dog_button_create {
   max-width: 133px;
@@ -36,7 +36,7 @@
     max-width: 240px;
     padding: 6px 0 0 17px;
     text-decoration: none;
-    background-color: var(--azul-oscuro);
+    background-color: var(--azul-mid-oscuro);
     border-radius: 10px;
     min-width: 200px;
   }
@@ -49,7 +49,7 @@
     margin-top: 5px;
   }
   .text_button_naranja {
-    color: var(--naranja);
+    color: var(--violeta-oscuro);
   }
   .dog_button_create {
     max-width: 120px;

@@ -1,7 +1,7 @@
 .Form_container {
   max-width: 526px;
   border-radius: 10px;
-  box-shadow: 0px 4px 22px 0px #0000001A;
+  box-shadow: 0px 4px 22px 0px #0000001a;
   font-family: 'Montserrat';
   padding: 40px;
   margin: 0 auto;
@@ -9,16 +9,16 @@
 .form_title {
   font-size: 18px;
   font-weight: 700;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
 }
 .form_title_naranja {
-  color: var(--naranja);
+  color: var(--violeta-oscuro);
 }
 .datos_obligatorios {
   margin-top: 10px;
   font-size: 14px;
   font-weight: 600;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
 }
 .form {
   display: flex;
@@ -44,8 +44,8 @@ label {
   margin-top: 10px;
   border: 2px solid transparent;
 }
-.div_input.error{
-  border: 2px solid rgba(255, 0, 0, 0.28);
+.div_input.error {
+  border: 2px solid rgba(119, 0, 255, 0.28);
 }
 
 .div_inputs_dobles {
@@ -79,7 +79,7 @@ label {
   font-size: 16px;
   font-weight: 700;
   padding: 4px 9px;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
   letter-spacing: 0.6px;
   width: 100%;
 }
@@ -100,12 +100,12 @@ label {
   margin-top: 20px;
   font-size: 14px;
   font-weight: 500;
-  color: var(--naranja);
+  color: var(--violeta-oscuro);
 }
 .li_temp {
   display: flex;
   gap: 5px;
-  border: 1px solid var(--naranja);
+  border: 1px solid var(--violeta-oscuro);
   padding: 4px;
   border-radius: 4px;
 }
@@ -133,12 +133,12 @@ label {
   font-weight: 700;
   padding: 10px 0;
   border-radius: 8px;
-  background-color: var(--naranja);
+  background-color: var(--violeta-oscuro);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .submit:hover {
-  background-color: var(--naranja-hover);
+  background-color: var(--violeta-hover);
 }
 .submit:focus {
   outline: none;
@@ -150,20 +150,19 @@ label {
 }
 .dato_incorrecto {
   margin-left: 15px;
-  color: #DF4545;
+  color: #ff0000;
   font-size: 12px;
   font-weight: 700;
 }
-.div_form_final_temps{
+.div_form_final_temps {
   max-width: 500px;
 }
 .delete_temp {
   border: none;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
   background-color: var(--blanco);
   cursor: pointer;
 }
-
 
 @media screen and (max-width: 574px) {
   .Form_container {
@@ -199,7 +198,7 @@ label {
   .li_temp {
     display: flex;
     gap: 5px;
-    border: 1px solid var(--naranja);
+    border: 1px solid var(--violeta-oscuro);
     padding: 4px;
     border-radius: 4px;
   }
@@ -212,16 +211,16 @@ label {
 
   .dato_incorrecto {
     margin-left: 15px;
-    color: #DF4545;
+    color: #df4545;
     font-size: 9px;
     font-weight: 700;
   }
-  .div_form_final_temps{
+  .div_form_final_temps {
     max-width: 500px;
   }
   .delete_temp {
     border: none;
-    color: var(--azul-oscuro);
+    color: var(--azul-mid-oscuro);
     background-color: var(--blanco);
     cursor: pointer;
   }

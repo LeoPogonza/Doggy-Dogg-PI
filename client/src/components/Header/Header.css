@@ -20,11 +20,11 @@
   font-weight: 900;
   text-decoration: none;
   letter-spacing: -1px;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
   transition: all 0.3s ease;
 }
 .logo:hover {
-  color: var(--azul-oscuro-hover);
+  color: var(--violeta-claro-hover);
 }
 .about {
   font-family: 'Montserrat';
@@ -52,7 +52,7 @@
   height: 0vh;
   width: 100vw;
   top: 115px;
-  background-color: var(--azul-oscuro);
+  background-color: var(--violeta-claro-hover);
   padding-top: 100px;
   z-index: 4;
 }
@@ -63,7 +63,7 @@
 .about_responsive {
   font-size: 32px;
   font-weight: 700;
-  color: var(--naranja);
+  color: var(--violeta-oscuro);
   z-index: 5;
 }
 @media screen and (max-width: 574px) {

@@ -15,7 +15,7 @@ nav {
   font-size: 26px;
   font-weight: 900;
   letter-spacing: -1px;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
 }
 .acceder {
   font-family: 'Montserrat';
@@ -24,7 +24,7 @@ nav {
   text-decoration: none;
   letter-spacing: 0.5%;
   color: var(--blanco);
-  background-color: var(--naranja);
+  background-color: var(--violeta-oscuro);
   border: none;
   border-radius: 8px;
   padding: 12px 22px;
@@ -32,7 +32,7 @@ nav {
   cursor: pointer;
 }
 .acceder:hover {
-  background-color: var(--naranja-hover);
+  background-color: var(--violeta-hover);
 }
 
 main {
@@ -53,7 +53,7 @@ main {
   font-weight: 900;
   line-height: 55px;
   letter-spacing: 0.5%;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
 }
 .titulo_perro {
   color: var(--violeta-perro);
@@ -77,7 +77,7 @@ main {
   font-weight: 700;
   text-decoration: none;
   color: var(--blanco);
-  background-color: var(--azul-oscuro);
+  background-color: var(--azul-mid-oscuro);
   border: none;
   border-radius: 12px;
   max-width: 200px;
@@ -87,7 +87,7 @@ main {
 }
 .acceder_grande:hover {
   gap: 20px;
-  background-color: var(--azul-oscuro-hover);
+  background-color: var(--violeta-claro-hover);
 }
 .arrow {
   width: 13px;

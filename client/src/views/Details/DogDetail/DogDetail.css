@@ -12,9 +12,9 @@
   gap: 30px;
 }
 .div_dog_profile {
-  width: 180px; 
+  width: 180px;
   height: 180px;
-  border-radius: 10px; 
+  border-radius: 10px;
   overflow: hidden;
 }
 .image_dog_profile {
@@ -32,7 +32,7 @@
 .name_dog {
   font-size: 32px;
   font-weight: 800;
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
 }
 .sobre_dog {
   font-size: 20px;
@@ -49,15 +49,16 @@ table {
   width: 100%;
 }
 th {
-  color: var(--azul-oscuro);
+  color: var(--azul-mid-oscuro);
   text-align: start;
 }
-th, td {
+th,
+td {
   border: 1px solid var(--gris-claro);
   border-collapse: collapse;
 }
 .encabezado_tabla {
-  padding: 20px ;
+  padding: 20px;
 }
 .table_caracteristicas {
   font-size: 17px;
@@ -107,7 +108,7 @@ th, td {
     width: 390px;
   }
   .div_dog_profile {
-    width: 130px; 
+    width: 130px;
     height: 130px;
   }
   .image_dog_profile {
@@ -130,7 +131,7 @@ th, td {
     max-width: 390px;
   }
   .encabezado_tabla {
-    padding: 10px ;
+    padding: 10px;
   }
   .table_caracteristicas {
     font-size: 17px;
@@ -156,7 +157,7 @@ th, td {
     width: 277px;
   }
   .div_dog_profile {
-    width: 120px; 
+    width: 120px;
     height: 120px;
   }
   .image_dog_profile {
@@ -179,7 +180,7 @@ th, td {
     max-width: 277px;
   }
   .encabezado_tabla {
-    padding: 10px ;
+    padding: 10px;
     font-size: 13px;
   }
   .table_caracteristicas {
@@ -201,4 +202,3 @@ th, td {
     max-width: 300px;
   }
 }
-

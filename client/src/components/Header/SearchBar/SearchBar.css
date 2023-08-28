@@ -42,7 +42,6 @@
   width: 20px;
 }
 
-
 .divSearchBar_Results {
   opacity: 0;
   display: flex;
@@ -62,7 +61,7 @@
 .divSearchBar_Results.active {
   opacity: 1;
 }
-.results{
+.results {
   display: flex;
   gap: 10px;
   text-decoration: none;
@@ -71,7 +70,7 @@
   padding: 2px 0 4px;
 }
 .results:hover {
-  color: var(--naranja);
+  color: var(--violeta-oscuro);
 }
 
 /* .div_nameResult{
