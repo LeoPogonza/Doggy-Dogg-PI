@@ -177,7 +177,7 @@ function Form() {
             <div className={errors.name ? 'div_input error' : 'div_input'}>
               <input
                 className="form_input"
-                placeholder="Eje: naruto"
+                placeholder="Eje: Manolo"
                 onChange={handleChange}
                 name="name"
                 value={input.name}

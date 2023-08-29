@@ -18,7 +18,7 @@
   margin-top: 10px;
   font-size: 14px;
   font-weight: 600;
-  color: var(--azul-mid-oscuro);
+  color: rgb(178, 78, 236);
 }
 .form {
   display: flex;
