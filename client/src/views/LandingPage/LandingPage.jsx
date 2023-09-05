@@ -82,7 +82,7 @@ function LandingPage() {
         <div className={s.funciones}>
           <img className={s.icon} src={icon5} alt="icon" />
           <p className={s.funcion_desc}>
-            llevalos <br /> siempre contigo
+            Llevalos <br /> siempre contigo
           </p>
         </div>
       </div>
