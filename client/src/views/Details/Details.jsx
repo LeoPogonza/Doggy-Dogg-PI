@@ -13,6 +13,7 @@ function Details(props) {
 
   useEffect(() => {
     dispatch(getDetail(id));
+    return () => {};
   }, [dispatch, id]);
 
   return (
